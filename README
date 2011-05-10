@@ -1,16 +1,7 @@
+jquery.unselectable 1
 
-jquery.disableSelection
-
-This ecma script disable text selection on html elements
+This ECMA script disable text selection on HTML elements
 
 to go:
- 
- $('any selector').disableSelection();
-
-p.s.:
- don't forget to import the .js file !
-
-@license MIT <http://iceon.me/mit.txt>
-@license GPL <http://iceon.me/gpl.txt>
-@author Stéfano Stypulkowski <iceon.me>
-@require jquery 1.4+
+   
+  $('any selector').unselectable();
