@@ -1,5 +1,5 @@
 /**
-* jquery.unselectable 1.3
+* jquery.unselectable 1.3.1
 *
 * This ECMA script disable text selection on HTML elements
 *
@@ -27,4 +27,5 @@ jQuery.fn.unselectable = function () {
     .each(function() { 
       this.onselectstart = function() { return false; };
     });
+  return this;
 };
